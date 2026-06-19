@@ -82,7 +82,7 @@ namespace esphome
                 // Hot water
                 if (action == SELECT_HOT_WATER || action == MAKE_HOT_WATER)
                 {
-                    write_array(command_press_3);
+                    write_array(command_press_6);
                     if (action == SELECT_HOT_WATER)
                         return;
                     delay(BUTTON_SEQUENCE_DELAY);
